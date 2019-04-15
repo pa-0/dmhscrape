@@ -1,0 +1,16 @@
+form div.ccaContent .ccaAddr
+{
+  width: 100%;
+}
+
+form div.ccaContent p.ccaContactInfo
+{
+  width: 100%;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+form div.ccaContent .ccaBusDesc
+{
+  margin: 1em 1em 1em 1em;
+  padding: .5em;
+}

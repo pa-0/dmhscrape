@@ -1,0 +1,382 @@
+form div.ccaContent .ccaListingDesc
+{
+  margin: 0.5em 0.5em 2em 1em;
+  padding: 0;
+}
+
+form div.ccaContent .ccaSponsorContainer
+{
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaSponsorAdText
+{
+  display: inline-block;
+  *display: inline;
+  width: 100%;
+  padding: .5em 0;
+  padding-left: 9%;
+  text-align: left;
+}
+
+form div.ccaContent .ccaSponsorImg
+{
+  display: inline-block;
+  *display: inline;
+  margin: 1em 0 0 0;
+  width: 100%;
+  padding: 0;
+  padding-left: 9%;
+  text-align: left;
+}
+
+form div.ccaContent .ccaSponsorImg img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+form div.ccaContent .ccaClear
+{
+  clear: both;
+}
+
+form div.ccaContent .ccaPrintVersionLink
+{
+  margin: 0 .5em 1em 0;
+}
+
+form div.ccaContent .ccaMemListingContainer
+{
+  margin: 1em 0 0 0;
+  width: 100%;
+  padding: 0;
+}
+
+form div.ccaContent .ccaMemListing .fa
+{
+  display: inline;
+  padding-right: .5em;
+}
+
+form div.ccaContent hr.ccaSeparatorBar {
+  border-style : none;
+  border-width : 0;
+  height: 0.25em;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaMemImgContainer
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaImgAlignLeft
+{
+  text-align: left;
+}
+
+form div.ccaContent .ccaImgAlignCenter
+{
+  text-align: center;
+}
+
+form div.ccaContent .ccaImgAlignRight
+{
+  text-align: right;
+}
+
+form div.ccaContent div.ccaMemImgContainer img.ccaMemImg
+{
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaMemName
+{
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 0;
+  font-weight: bold;
+}
+
+form div.ccaContent .ccaWebAddr
+{
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaOnlineLinks
+{
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaOnlineLinkLogo
+{
+  border-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaBusDesc
+{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
+form div.ccaContent .ccaProfileSeparator
+{
+  border-style: none;
+  height: 1px;
+  margin: 0.5em 1em;
+  padding: 0;
+  width: auto;
+}
+
+form div.ccaContent .ccaMgrpLabel
+{
+  margin: 0.5em 0.5em 0 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaMgrpList
+{
+  list-style-type: none;
+  margin: 0 0.5em 0.5em 2em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaMgrp
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaPromoLabel
+{
+  margin: 0.5em 0.5em 0 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaPromoList
+{
+  list-style-type: none;
+  margin: 0 0.5em 0.5em 2em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaPromo
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaJobLabel
+{
+  margin: 0.5em 0.5em 0 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaJobList
+{
+  list-style-type: none;
+  margin: 0 0.5em 0.5em 2em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaJob
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaNewsLabel
+{
+  margin: 0.5em 0.5em 0 1em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaNewsList
+{
+  list-style-type: none;
+  margin: 0 0.5em 0.5em 2em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaNews
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaRepList
+{
+  list-style-type: none;
+  margin: 0.5em 0.5em 0.5em 2em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaRep
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaAddr
+{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  padding: 0.5em 0.5em 0.5em 2em;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaMapLogo {
+  border-style: none;
+  margin: 0.3em 0.5em 0 0;
+  padding: 0;
+}
+
+form div.ccaContent .ccaContactInfo
+{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaBusCats 
+{
+  margin: 0.5em 0.5em 0em 4em;
+  padding-bottom: 0.5em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+form div.ccaContent .ccaBusCatListItem 
+{
+  margin: 0;
+  padding: 0;
+}
+
+form div.ccaContent p.ccaMemProfileLnk
+{
+  text-align: right;
+  margin: 1em 0.5em 1em 1em;
+  padding: 0;
+}
+
+form div.ccaContent p.ccaMemProfileLnk a.ccaMemProfileLnk
+{
+  font-size: .857em;
+}
+
+form div.ccaContent p.ccaMemActivityLnk
+{
+  text-align: right;
+  margin: 1em 0.5em 1em 1em;
+  padding: 0;
+}
+
+form div.ccaContent p.ccaMemProfileLnk a.ccaMemJobLnk
+{
+  font-size: .857em;
+}
+
+form div.ccaContent p.ccaMemProfileLnk a.ccaMemPromoLnk
+{
+  font-size: .857em;
+}
+
+form div.ccaContent .ccaSecondaryAddrDesc
+{
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 0;
+}
+
+form div.ccaContent .ccaSecondaryAddrCompany
+{
+  margin: 0.5em 0.5em 0.5em 1em;
+  padding: 0;
+}
+
+form div.ccaContent .ccaSecondaryAddrSeparator
+{
+  border-style: none;
+  height: 1px;
+  margin: 0.5em 1em;
+  padding: 0;
+  width: calc(100% - 2em);
+}
+
+form div.ccaContent .ccaSecondaryAddrOnlineLinks
+{
+  margin: 0.5em 0.5em 0.5em 0em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+/* Print Version */
+
+form div.ccaPrintView div.ccaContent .ccaNavBtnContainer,
+form div.ccaPrintView div.ccaContent .ccaMemProfileLnk
+{
+  display: none;
+}
+
+form div.ccaPrintView div.ccaContent .ccaSeparatorBar
+{
+  -webkit-print-color-adjust: exact;
+}
+
+form div.ccaPrintView div.ccaContent .ccaMemImgContainer
+{
+  margin-top: 1em;
+}
+
+form div.ccaPrintView div.ccaContent .ccaAddr
+{
+  width: 45%;
+}
+
+form div.ccaPrintView div.ccaContent .ccaContactInfo
+{
+  width: 45%;
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+
+form div.ccaPrintView div.ccaContent .ccaBusDesc
+{
+  margin: 1em 4.0em 1em 4.0em;
+  padding: 1em;
+}
+
+/* Print Version */

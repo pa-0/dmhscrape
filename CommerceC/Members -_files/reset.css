@@ -1,0 +1,186 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+.ccaContent div, 
+.ccaContent span, 
+.ccaContent applet, 
+.ccaContent object, 
+.ccaContent iframe,
+.ccaContent h1, 
+.ccaContent h2, 
+.ccaContent h3, 
+.ccaContent h4, 
+.ccaContent h5, 
+.ccaContent h6, 
+.ccaContent p, 
+.ccaContent blockquote, 
+.ccaContent pre,
+.ccaContent a, 
+.ccaContent abbr, 
+.ccaContent acronym, 
+.ccaContent address, 
+.ccaContent big, 
+.ccaContent cite, 
+.ccaContent code, 
+.ccaContent del, 
+.ccaContent dfn, 
+.ccaContent em, 
+.ccaContent img, 
+.ccaContent ins, 
+.ccaContent kbd, 
+.ccaContent q, 
+.ccaContent s, 
+.ccaContent samp, 
+.ccaContent small, 
+.ccaContent strike, 
+.ccaContent strong, 
+.ccaContent sub, 
+.ccaContent sup, 
+.ccaContent tt, 
+.ccaContent var, 
+.ccaContent b, 
+.ccaContent u, 
+.ccaContent i, 
+.ccaContent center, 
+.ccaContent dl, 
+.ccaContent dt, 
+.ccaContent dd, 
+.ccaContent ol, 
+.ccaContent ul, 
+.ccaContent li, 
+.ccaContent fieldset, 
+.ccaContent form, 
+.ccaContent label, 
+.ccaContent legend, 
+.ccaContent table, 
+.ccaContent caption, 
+.ccaContent tbody, 
+.ccaContent tfoot, 
+.ccaContent thead, 
+.ccaContent tr, 
+.ccaContent th, 
+.ccaContent td, 
+.ccaContent article, 
+.ccaContent aside, 
+.ccaContent canvas, 
+.ccaContent details, 
+.ccaContent embed, 
+.ccaContent figure, 
+.ccaContent figcaption, 
+.ccaContent footer, 
+.ccaContent header, 
+.ccaContent hgroup, 
+.ccaContent menu, 
+.ccaContent nav, 
+.ccaContent output, 
+.ccaContent ruby, 
+.ccaContent section, 
+.ccaContent summary, 
+.ccaContent time, 
+.ccaContent mark, 
+.ccaContent audio, 
+.ccaContent video 
+{	
+  margin: 0;	
+  padding: 0;	
+  border-width: 1px;	
+  font-size: 100%;	
+  font: inherit;	
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+.ccaContent article, 
+.ccaContent aside, 
+.ccaContent details, 
+.ccaContent figcaption, 
+.ccaContent figure, 
+.ccaContent footer, 
+.ccaContent header, 
+.ccaContent hgroup, 
+.ccaContent menu, 
+.ccaContent nav, 
+.ccaContent section 
+{	
+  display: block;
+}
+
+.ccaContent * 
+{	
+  line-height: 1em;
+}
+
+.ccaContent ol, 
+.ccaContent ul 
+{	
+  list-style: none;
+}
+
+.ccaContent li
+{	
+  list-style-type: none;
+  background-image: none;
+}
+
+.ccaContent blockquote, 
+.ccaContent q 
+{	
+  quotes: none;
+}
+
+.ccaContent blockquote:before, 
+.ccaContent blockquote:after,
+.ccaContent q:before, 
+.ccaContent q:after 
+{	
+  content: '';	
+  content: none;
+}
+
+.ccaContent table 
+{	
+  border-collapse: collapse;	
+  border-spacing: 0;
+}
+
+.ccaContent a 
+{    
+  margin:0;    
+  padding:0;    
+  font-size:100%;    
+  vertical-align:baseline;    
+  background:transparent;
+}
+
+.ccaContent hr 
+{    
+  display:block;    
+  height:1px;    
+  border:0;    
+  border-top:1px solid #cccccc;    
+  margin:1em 0;    
+  padding:0;
+  float: none;
+  width: 100%;
+  background: transparent;
+}
+
+.ccaContent input, 
+.ccaContent select 
+{ 
+  background: transparent;
+  display: inline;   
+  vertical-align:middle;
+  box-shadow: none;
+}
+
+.ccaContent input[type=submit], .ccaContent a 
+{
+  transition: none;
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: none;
+}
+
+.ccaContent select, .ccaContent textarea, .ccaContent input[type="text"], .ccaContent input[type="password"], .ccaContent input[type="datetime"], .ccaContent input[type="datetime-local"], .ccaContent input[type="date"], .ccaContent input[type="month"], .ccaContent input[type="time"], .ccaContent input[type="week"], .ccaContent input[type="number"], .ccaContent input[type="email"], .ccaContent input[type="url"], .ccaContent input[type="search"], .ccaContent input[type="tel"], .ccaContent input[type="color"], .ccaContent .uneditable-input
+{
+  height: auto;
+}

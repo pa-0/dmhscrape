@@ -1,0 +1,31 @@
+﻿form div.ccaPrintView
+{
+  max-width: 800px;
+  margin: 20px 0 0 20px;
+}
+
+form div.ccaPrintView .ccaPrintLink
+{
+  text-align: right;
+  margin: 0 .5em 1em 0;
+}
+
+form div.ccaPrintView .ccaPrintLink a
+{
+  font-size: 14px;
+  font-family: 'Muli';
+  letter-spacing: .025em;
+  line-height: 1.5em;
+}
+
+form div.ccaPrintView .ccaQuickLinks
+{
+  display: none;
+}
+
+@media print {
+  form div.ccaPrintView .ccaPrintLink
+  {
+    display: none;
+  }
+}

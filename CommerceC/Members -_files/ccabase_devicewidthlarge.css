@@ -1,0 +1,36 @@
+form div.ccaContent
+{
+  min-width: 550px;
+}
+form div.ccaContent *
+{
+  font-size: 14px;
+}
+
+/* Login Header for submission forms */
+
+form div.ccaContent .ccaLoginHeader .ccaRepName
+{
+  display: inline-block;
+  width: 50%;
+}
+
+form div.ccaContent .ccaLoginHeader .ccaLogout
+{
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+
+/* End Login Header for submission forms */
+
+form div.ccaContent .ccaShowHideHeader
+{
+  display: inline-block;
+  width: 14em;
+}
+
+form div.ccaContent .ccaDeviceWidthSmall
+{
+  display: none;
+}

@@ -1,0 +1,28 @@
+form div.ccaContent div.ccaNavBtnContainer
+{
+  clear: both;
+  /* min-width: 550px; */
+  width: 100%;
+  margin: 0;
+  padding: 1em 0 0 0;
+  text-align: right;
+}
+
+form div.ccaContent .ccaPageBtn
+{
+  margin: 0 0 0 0.5em;
+  padding: 0;
+}
+
+form div.ccaContent .ccaPageSeparator
+{
+  margin: 0 0 0 0.5em;
+  padding: 0;
+}
+
+form div.ccaContent .ccaReturnToListing
+{
+  text-align: right;
+  margin: 1em 0 1em 0;
+  padding: 0;
+}

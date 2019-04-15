@@ -1,0 +1,14 @@
+form div.ccaContent
+{
+  min-width: 240px;
+  max-height: 1000000px; /* This prevents font-boosting */
+}
+form div.ccaContent *
+{
+  font-size: 16px;
+}
+
+form div.ccaContent .ccaDeviceWidthLarge
+{
+  display: none;
+}
