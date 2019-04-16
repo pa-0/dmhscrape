@@ -17,16 +17,16 @@ def spanScan():
 	if page:
 		spans = soup.find_all('span')
 		for span in spans:
-			companies = []
 			companyName = span.find('p', {'class': 'ccaMemName'})
-			companyWeb = span.find('a', href=True)
+			companyWeb = [tag['href'] for tag in span.select('p a[href]')]
 			companyAddr = span.find('p', {'class': 'ccaAddr'})
-			
 			if companyName:
-				print(companyName.text + companyWeb['href']+ companyAddr.text + "\n")
+				company = [[companyName.text] + [companyWeb[1]] + [companyAddr.text[:-3]]]
+				print(company)
+#				return companyName.texts, companyWeb[1], companyAddr.text
 
 
-data = spanScan()
-print(data)
+#cName, cWeb, cAddr = spanScan()
+spanScan()
 
 
