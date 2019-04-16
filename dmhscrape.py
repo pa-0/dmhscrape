@@ -1,6 +1,7 @@
 # import libraries
 from urllib.request import urlopen
 import os
+import csv
 from bs4 import BeautifulSoup
 
 
@@ -12,21 +13,17 @@ absFilePath = os.path.join(dirPath, filePath) #Join directory and file to create
 #Open HTML File to scrape
 page = urlopen("file:///" + absFilePath)
 soup = BeautifulSoup(page, 'html.parser')
-	
-def spanScan():
+
+with open('commercec.csv', 'w') as myfile:
+	wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+	wr.writerow(["Company Name", "Company Website", "Address", "Phone"])
 	if page:
 		spans = soup.find_all('span')
 		for span in spans:
 			companyName = span.find('p', {'class': 'ccaMemName'})
 			companyWeb = [tag['href'] for tag in span.select('p a[href]')]
 			companyAddr = span.find('p', {'class': 'ccaAddr'})
+			cInfo = span.find('p', class_='ccaContactInfo')
+			cAddr = str([companyAddr.text[:-3]])
 			if companyName:
-				company = [[companyName.text] + [companyWeb[1]] + [companyAddr.text[:-3]]]
-				print(company)
-#				return companyName.texts, companyWeb[1], companyAddr.text
-
-
-#cName, cWeb, cAddr = spanScan()
-spanScan()
-
-
+				wr.writerow([companyName.text] + [companyWeb[1]] + [companyAddr.text[:-3]] + [cInfo.text[:11]])
