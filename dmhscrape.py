@@ -14,7 +14,7 @@ absFilePath = os.path.join(dirPath, filePath) #Join directory and file to create
 page = urlopen("file:///" + absFilePath)
 soup = BeautifulSoup(page, 'html.parser')
 
-with open('commercec.csv', 'w') as myfile:
+with open('commercec.csv', 'w', newline='') as myfile:
 	wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
 	wr.writerow(["Company Name", "Company Website", "Address", "Phone"])
 	if page:
