@@ -24,6 +24,5 @@ with open('commercec.csv', 'w') as myfile:
 			companyWeb = [tag['href'] for tag in span.select('p a[href]')]
 			companyAddr = span.find('p', {'class': 'ccaAddr'})
 			cInfo = span.find('p', class_='ccaContactInfo')
-			cAddr = str([companyAddr.text[:-3]])
 			if companyName:
 				wr.writerow([companyName.text] + [companyWeb[1]] + [companyAddr.text[:-3]] + [cInfo.text[:11]])
